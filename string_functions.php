@@ -43,7 +43,7 @@ echo $output;
 # ucwords()
 # Capitalize every world
 
-$ooutput = ucwords('hello world');
+$output = ucwords('hello world');
 
 str_replace()
 # Replace all occurances of a search string with a replacement
@@ -74,5 +74,6 @@ $compressed = gzcompress($string);
 echo $compressed;
 
 $original = gzuncompress($compressed);
+echo original;
 
  ?>
